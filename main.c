@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(int argc, char *argv[])
 {
-    int a,b;
-    printf("input two integers :");
-    scanf("%d %d",&a, &b);
-    printf("+ result is %d\n- result is %d\n* result is %d\n/ result is %d\n%% result is %d\n", a+b, a-b, a*b, a/b, a%b);
+    int second;
+    printf("input the second :");
+    scanf("%d",&second);
+    printf("the time is %d : %d", second/60, second%60);
     return 0;
 }
